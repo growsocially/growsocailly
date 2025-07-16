@@ -80,46 +80,117 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="gradient-bg py-20 px-6">
-        <div class="container mx-auto flex flex-col md:flex-row items-center">
-            <div class="md:w-1/2 mb-10 md:mb-0">
-                <h1 class="text-4xl md:text-6xl font-bold mb-6 neon-text">Boost Your <span class="text-neon-300">Social Media</span> Growth</h1>
-                <p class="text-xl text-neon-200 mb-8">Get real followers, likes, views and subscribers across all platforms. Fast delivery, premium quality, and 24/7 support.</p>
-                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                    <a href="#services" class="bg-neon-500 hover:bg-neon-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 text-center">Explore Services</a>
-                    <a href="#contact" class="bg-transparent border-2 border-neon-500 hover:bg-neon-500 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 text-center">Contact Us</a>
-                </div>
+   <!-- Hero Section -->
+<section id="home" class="relative overflow-hidden bg-gradient-to-br from-gray-900 via-purple-900 to-gray-800 py-24 px-6">
+    <!-- Animated background elements -->
+    <div class="absolute inset-0 overflow-hidden">
+        <div class="absolute top-0 left-0 w-64 h-64 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+        <div class="absolute top-0 right-0 w-64 h-64 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+        <div class="absolute bottom-0 left-1/2 w-64 h-64 bg-indigo-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+    </div>
+
+    <div class="container mx-auto relative z-10 flex flex-col md:flex-row items-center">
+        <!-- Content -->
+        <div class="md:w-1/2 mb-16 md:mb-0">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                <span class="text-white">Dominate</span> 
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Social Media</span> 
+                <span class="text-white">With Real Growth</span>
+            </h1>
+            <p class="text-xl text-gray-300 mb-8 max-w-lg">
+                Get authentic followers, explosive engagement, and skyrocketing views across all platforms. 
+                Premium quality with instant delivery and 24/7 elite support.
+            </p>
+            <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="#pricing" class="relative group bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold py-4 px-8 rounded-xl shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-blue-500/30 text-center">
+                    <span class="relative z-10">Get Started Now</span>
+                    <span class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+                </a>
+                <a href="#contact" class="relative group bg-transparent border-2 border-blue-400 hover:bg-blue-500/10 text-white font-bold py-4 px-8 rounded-xl shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-blue-500/20 text-center">
+                    <span class="relative z-10">Custom Strategy</span>
+                    <span class="absolute inset-0 bg-blue-500/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+                </a>
             </div>
-            <div class="md:w-1/2 flex justify-center">
-                <img src="https://cdn-icons-png.flaticon.com/512/3663/3663918.png" alt="Social Media Growth" class="w-full max-w-md animation-float">
+            
+            <!-- Trust Badges -->
+            <div class="flex flex-wrap items-center mt-12 gap-4">
+                <div class="flex items-center bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-400 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="text-sm text-gray-300">100% Real Engagement</span>
+                </div>
+                <div class="flex items-center bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-400 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="text-sm text-gray-300">Trusted by 10K+ Creators</span>
+                </div>
             </div>
         </div>
-    </section>
 
-    <!-- Stats Section -->
-    <section class="bg-gray-800 py-12 px-6">
-        <div class="container mx-auto">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-                <div class="p-6 bg-gray-700 rounded-lg shadow-lg">
-                    <div class="text-4xl font-bold text-neon-400 mb-2">10K+</div>
-                    <div class="text-neon-200">Happy Clients</div>
-                </div>
-                <div class="p-6 bg-gray-700 rounded-lg shadow-lg">
-                    <div class="text-4xl font-bold text-neon-400 mb-2">500K+</div>
-                    <div class="text-neon-200">Orders Completed</div>
-                </div>
-                <div class="p-6 bg-gray-700 rounded-lg shadow-lg">
-                    <div class="text-4xl font-bold text-neon-400 mb-2">24/7</div>
-                    <div class="text-neon-200">Customer Support</div>
-                </div>
-                <div class="p-6 bg-gray-700 rounded-lg shadow-lg">
-                    <div class="text-4xl font-bold text-neon-400 mb-2">100%</div>
-                    <div class="text-neon-200">Satisfaction Guarantee</div>
-                </div>
+        <!-- Hero Image -->
+        <div class="md:w-1/2 flex justify-center relative">
+            <div class="relative max-w-md">
+                <img src="https://cdn-icons-png.flaticon.com/512/3663/3663918.png" alt="Social Media Growth" class="w-full relative z-10 animate-float">
+                <div class="absolute -inset-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-3xl blur-xl opacity-30 animate-pulse"></div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
+<!-- Stats Section -->
+<section class="bg-gray-900 py-16 px-6 border-t border-b border-gray-800">
+    <div class="container mx-auto max-w-6xl">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Stat 1 -->
+            <div class="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700 shadow-2xl hover:shadow-purple-500/10 transition-all duration-300 transform hover:-translate-y-2">
+                <div class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-3">10K+</div>
+                <div class="text-lg text-gray-300">Happy Clients</div>
+                <div class="mt-4 h-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full"></div>
+            </div>
+            
+            <!-- Stat 2 -->
+            <div class="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700 shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 transform hover:-translate-y-2">
+                <div class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-3">500K+</div>
+                <div class="text-lg text-gray-300">Orders Completed</div>
+                <div class="mt-4 h-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full"></div>
+            </div>
+            
+            <!-- Stat 3 -->
+            <div class="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700 shadow-2xl hover:shadow-indigo-500/10 transition-all duration-300 transform hover:-translate-y-2">
+                <div class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-3">24/7</div>
+                <div class="text-lg text-gray-300">Elite Support</div>
+                <div class="mt-4 h-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full"></div>
+            </div>
+            
+            <!-- Stat 4 -->
+            <div class="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700 shadow-2xl hover:shadow-pink-500/10 transition-all duration-300 transform hover:-translate-y-2">
+                <div class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-3">100%</div>
+                <div class="text-lg text-gray-300">Satisfaction</div>
+                <div class="mt-4 h-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Animation Keyframes (add to your CSS) -->
+<style>
+    @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+    }
+    @keyframes blob {
+        0% { transform: translate(0px, 0px) scale(1); }
+        33% { transform: translate(30px, -50px) scale(1.1); }
+        66% { transform: translate(-20px, 20px) scale(0.9); }
+        100% { transform: translate(0px, 0px) scale(1); }
+    }
+    .animate-float { animation: float 6s ease-in-out infinite; }
+    .animate-blob { animation: blob 15s infinite; }
+    .animation-delay-2000 { animation-delay: 2s; }
+    .animation-delay-4000 { animation-delay: 4s; }
+</style>
     <!-- Services Section -->
     <section id="services" class="py-20 px-6 bg-gray-900">
         <div class="container mx-auto">
